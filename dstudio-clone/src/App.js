@@ -1,12 +1,15 @@
-import { Stack } from '@mui/material';
-import Image from 'material-ui-image'
+import { VStack } from '@chakra-ui/react';
+import Banner from './components/Banner';
 import Header from './components/Header';
+import MainSection from './components/MainSection';
 
 function App() {
   return (
-        <div>
+        <VStack backgroundColor="white" width="100vw">
           <Header />
-        </div>
+          <Banner />
+          <MainSection />
+        </VStack>
   );
 }
 
