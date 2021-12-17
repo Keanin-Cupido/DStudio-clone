@@ -18,7 +18,7 @@ function Header() {
             </Flex>
 
             <Flex gap="3em">
-                <Button colorScheme='green' borderRadius={0} pr={8} pl={8}>Work <GrLinkNext /></Button>
+                <Button colorScheme='green' borderRadius={0} pr={8} pl={8} gap={2}>Work <GrLinkNext /></Button>
                 <Image src={menu} width="2em"/>
             </Flex>
         </Flex>
